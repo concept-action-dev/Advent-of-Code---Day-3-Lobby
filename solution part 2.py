@@ -41,6 +41,6 @@ def total_output_from_file(filename: str, k: int) -> int:
     return total
 
 if __name__ == "__main__":
-    # Put your puzzle input into input.txt (one bank per line), then run this file.
     answer = total_output_from_file("input.txt", K)
     print("Total output joltage:", answer)
+
