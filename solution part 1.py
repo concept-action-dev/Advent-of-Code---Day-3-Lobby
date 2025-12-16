@@ -1,5 +1,3 @@
-# Read all lines of input from a text file called "input.txt"
-# Each line is a bank of batteries.
 with open("input.txt") as f:
     banks = [line.strip() for line in f]
 
@@ -23,3 +21,4 @@ for bank in banks:
 
 # Print the final total output joltage
 print("Total output joltage:", total)
+
